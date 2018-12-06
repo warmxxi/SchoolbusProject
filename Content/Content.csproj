@@ -154,6 +154,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="wwwroot\app\angular-configurations.js" />
+    <Content Include="wwwroot\app\angular.module.js" />
+    <Content Include="wwwroot\app\controllers\baseController.js" />
+    <Content Include="wwwroot\app\controllers\rootController.js" />
+    <Content Include="wwwroot\app\route.js" />
+    <Content Include="wwwroot\app\services\rootService.js" />
     <Content Include="wwwroot\js\app-script.js" />
     <Content Include="wwwroot\libs\angularjs\angular-animate.js" />
     <Content Include="wwwroot\libs\angularjs\angular-animate.min.js" />
@@ -356,9 +362,7 @@
     <Content Include="wwwroot\libs\popper\tooltip.min.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\app\controllers\" />
     <Folder Include="wwwroot\app\directives\" />
-    <Folder Include="wwwroot\app\services\" />
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\img\brand\" />
   </ItemGroup>
