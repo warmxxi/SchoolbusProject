@@ -155,6 +155,32 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="wwwroot\js\app-script.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-animate.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-animate.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-aria.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-aria.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-cookies.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-cookies.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-csp.css" />
+    <Content Include="wwwroot\libs\angularjs\angular-loader.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-loader.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-message-format.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-message-format.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-messages.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-messages.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-mocks.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-parse-ext.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-parse-ext.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-resource.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-resource.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-route.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-route.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-sanitize.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-sanitize.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-touch.js" />
+    <Content Include="wwwroot\libs\angularjs\angular-touch.min.js" />
+    <Content Include="wwwroot\libs\angularjs\angular.js" />
+    <Content Include="wwwroot\libs\angularjs\angular.min.js" />
     <Content Include="wwwroot\libs\bootstrap\css\bootstrap-grid.css" />
     <Content Include="wwwroot\libs\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="wwwroot\libs\bootstrap\css\bootstrap-reboot.css" />
@@ -365,6 +391,18 @@
       <DependentUpon>app-style.css</DependentUpon>
     </Content>
     <Content Include="wwwroot\scss\app-style.scss" />
+    <Content Include="wwwroot\libs\angularjs\angular-animate.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-aria.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-cookies.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-loader.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-message-format.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-messages.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-parse-ext.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-resource.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-route.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-sanitize.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular-touch.min.js.map" />
+    <Content Include="wwwroot\libs\angularjs\angular.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

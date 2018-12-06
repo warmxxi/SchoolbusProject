@@ -28,6 +28,7 @@ namespace Content.Controllers
 
         public ActionResult Authen(UserAuthenDTO authen)
         {
+            ServiceProvider.AuthenticationService.UserAuthentication(authen);
             return Content(JsonConvert.SerializeObject(""), "application/json");
         }
     }

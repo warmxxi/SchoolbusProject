@@ -11,13 +11,13 @@ namespace Service.Services
 {
     public class AuthenticationService : SqlDataAccess
     {
-        public void UserRegister(UserAuthenDTO User)
+        public void UserAuthentication(UserAuthenDTO User)
         {
             using (var command = new SqlCommand())
             {
-                command.CommandText = "[SP_ADD_USER]";
-                command.Parameters.Add(new SqlParameter("@FIRST_NAME", User.Username));
-                command.Parameters.Add(new SqlParameter("@LAST_NAME", User.Password));
+                command.CommandText = "[SP_User_Authentication]";
+                command.Parameters.Add(new SqlParameter("@Username", User.Username));
+                command.Parameters.Add(new SqlParameter("@Password", User.Password));
                 command.CommandType = CommandType.StoredProcedure;
                 this.ExecuteNonQuery(command);
             }
