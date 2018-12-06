@@ -1,4 +1,6 @@
-﻿using Service;
+﻿using Model.DTOs;
+using Newtonsoft.Json;
+using Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +24,11 @@ namespace Content.Controllers
         public ActionResult ResetPassword()
         {
             return View();
+        }
+
+        public ActionResult Authen(UserAuthenDTO authen)
+        {
+            return Content(JsonConvert.SerializeObject(""), "application/json");
         }
     }
 }
